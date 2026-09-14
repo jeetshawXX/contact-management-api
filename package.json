@@ -1,0 +1,23 @@
+{
+  "name": "contact-management-api",
+  "version": "1.0.0",
+  "description": "Secure REST API for managing personal and professional contacts using Express.js and SQLite.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {}
+}
