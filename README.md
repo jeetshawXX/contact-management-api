@@ -56,9 +56,9 @@ curl http://localhost:3000/health
 {
   "name": "Jeet Shaw",
   "email": "jeet@example.com",
-  "phone": "+91 9876543210",
-  "address": "Bardhaman, West Bengal",
-  "company": "Example Technologies"
+  "phone": "+91 1122333444",
+  "address": "West Bengal",
+  "company": "Example"
 }
 ```
 
@@ -74,9 +74,9 @@ curl -X POST http://localhost:3000/api/contacts \
   -d '{
     "name":"Jeet Shaw",
     "email":"jeet@example.com",
-    "phone":"+91 9876543210",
-    "address":"Bardhaman, West Bengal",
-    "company":"Example Technologies"
+    "phone":"+91 111222333444",
+    "address":"West Bengal",
+    "company":"Example"
   }'
 ```
 
